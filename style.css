@@ -30,8 +30,9 @@ h4 {
     border: none; 
 }
 
-.cow_icon {
-    margin: 40px; 
+.cow_icon { 
+    width: 200px;
+    margin: 20px; 
 }
 
 .cow_pic {
@@ -45,24 +46,24 @@ h1 {
     font-size: 50px; 
     text-align: center; 
     color: #000000;  
-    letter-spacing: 0.05em;
+    letter-spacing: 0.050em;
     text-shadow: 
-    4px 4px 0px #ffff, 
-    7px 7px 0px rgba(0, 0, 0, 0.2);
+    1px 1px 0px #ffff, 
+    4px 4px 0px rgba(0, 0, 0, 0.2);
     width: 100%; 
     height: auto; 
 }
 
 
 @media only screen and (min-width: 600px) {
-.doggo {
+.cowcontainer {
     display: flex; 
     flex-direction: column;  
     align-items: center; 
     justify-content: center; 
     padding:1px;
     border:1px solid #021a40;
-    background: linear-gradient( rgb(175, 131, 131), rgb(173, 197, 249) );
+    background: linear-gradient( #085078, #85d8ce); 
     width: 80%; 
     height: auto; 
     margin: 20px; 
@@ -78,9 +79,7 @@ h4 {
     border: none; 
 }
 
-.dog_icon {
-    width: 150px; 
-    height: 150px;
+.cow_icon { 
     margin: 20px; 
 }
 
@@ -99,8 +98,8 @@ h1 {
     color: #000000;
     letter-spacing: .05em;
     text-shadow: 
-    4px 4px 0px #ffff, 
-    7px 7px 0px rgba(0, 0, 0, 0.2);
+    1px 1px 0px #ffff, 
+    4px 4px 0px rgba(0, 0, 0, 0.2);
     width: 100%; 
     height: auto; 
 }
